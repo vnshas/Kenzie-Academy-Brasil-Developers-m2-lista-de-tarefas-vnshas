@@ -1,0 +1,11 @@
+:root{
+    --primary-color: #3b5bdb;
+    --background-main: #e2e2e2;
+    --background-inputs:#ebebeb;
+    --background-items: #f1f3f5;
+    --span-color-urgent: #e40404;
+    --span-color-normal: #028302;
+    --span-color-important: #f3a703;
+    --font-primary: "Roboto", sans-serif;
+    
+}

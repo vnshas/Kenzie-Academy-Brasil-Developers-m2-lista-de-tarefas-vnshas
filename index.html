@@ -7,15 +7,24 @@
     <title>Lista de Tarefas</title>
 
     <!-- ESTILOS -->
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
-
+    <link rel="stylesheet" href="./styles/reset.css ">
+    <link rel="stylesheet" href="./styles/style.css ">
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/container.css">
+    <link rel="stylesheet" href="./styles/background.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+   
     <!-- SCRIPTS -->
     <script src="./script.js" defer></script>
   </head>
-  <body>
+  <body class="background-gray">
     <!-- Cabeçalho -->
-    <header class="header__container">
+    <header class="header__container background-white">
       <div class="header__content">
         <h1 class="header__title">MY TASKS</h1>
         <input
@@ -26,9 +35,9 @@
       </div>
     </header>
     <!-- Conteúdo Principal -->
-    <main class="main__container">
+    <main class="main__container ">
       <!-- Formulário para adicionar nova task -->
-      <form class="form__container">
+      <form class="form__container background-white">
         <h2 class="form__title title2">Inserir tarefa</h2>
         <div class="form__input-container">
           <input
@@ -50,8 +59,8 @@
       </form>
 
       <!-- Listagem de tasks -->
-      <section class="tasks__container">
-        <h2>Tarefas</h2>
+      <section class="tasks__container background-white">
+        <h2 class="title2">Tarefas</h2>
         <ul class="tasks__list">
           <!-- Task Exemplo 1 -->
           <li class="task__item">

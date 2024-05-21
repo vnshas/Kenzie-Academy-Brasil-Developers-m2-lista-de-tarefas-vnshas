@@ -1,0 +1,39 @@
+.header__container,.main__container,.tasks__container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.main__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form__container{
+    width: 70%;
+    border-radius: 8px;
+    padding: 40px;
+    
+}
+
+.form__input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tasks__container{
+    width: 70%;
+    
+    border-radius: 8px;
+    padding: 40px;
+    margin-top: 30px;
+}
+.task-info__container{
+   margin: 10px;
+   display: flex;
+   align-items: center;
+   justify-content:flex-start;
+   
+}
+

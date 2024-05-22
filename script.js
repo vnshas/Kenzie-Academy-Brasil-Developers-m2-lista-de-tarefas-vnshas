@@ -12,10 +12,11 @@ const tasks = [
 ];
 
 function renderElements(tasks){
-  const myUL = document.getElementsByClassName("tasks__list")
-
+  const myUL = document.querySelector(".tasks__list")
+  console.log(typeof(myUL))
   for(let i = 0;i < tasks.length;i++){
-    
+    const newLi = createTaskItem(tasks[i])
+    document.myUL.appendChild(newLi)
   }
 }
 
@@ -32,18 +33,20 @@ function createTaskItem(object){
 
   
   
-  const taskType = document.getElementsByClassName("form__input--priority")[0]
+  const taskType = object.type
   
 
-  if (taskType.value == "urgente"){
+  if (taskType == "urgente"){
     taskSpan.classList.toggle("span-urgent")
   }
-  else if(taskType.value == "importante"){
+  else if(taskType == "importante"){
     taskSpan.classList.toggle("span-important")
   }
   else{
     taskSpan.classList.toggle("span-normal")
   }
+
+  taskTitle.innerText = object.title
 
   listItem.appendChild(containerItem)
   listItem.appendChild(removeTask)

@@ -47,6 +47,7 @@ function createTaskItem(object){
     const targetEl = e.target
     const parentEL = targetEl.closest("li")
 
+    
     if (targetEl.classList.contains("task__button--remove-task")){
       parentEL.remove()
       

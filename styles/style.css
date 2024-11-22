@@ -87,7 +87,7 @@
 }
 
 .task__button--remove-task{
-    background-image: url("https://github.com/vnshas/Kenzie-Academy-Brasil-Developers-m2-lista-de-tarefas-vnshas/blob/f2b1e69d75c009e56b2a00daa7c0529fe50de6c0/assets/trash-icon.svg");
+    background-image: url("./assets/trash-icon.svg");
     height: 20px;
     width: 20px;
     border: none;
